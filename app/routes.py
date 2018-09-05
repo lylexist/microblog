@@ -7,6 +7,7 @@ from flask_login import logout_user, login_required
 from werkzeug.urls import url_parse
 from datetime import datetime
 
+#Git push test
 @app.before_request
 def before_request():
     if current_user.is_authenticated:
